@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Paul Arte">
+    <meta name="description" content="Testing and learing HTML">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Pollito</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans">
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         .colorMoradoGrande {
@@ -17,12 +21,49 @@
         }
     </style>
 </head>
-<p>para probar git</p>
+
 <body>
-<!--
-    esto es solo un comentario
--->
-<div id="Wowo" class="slide-in">Hola, Viliina! Soy una prueba de Página web de Paul!</div>
-    
+    <!--
+        esto es solo un comentario
+    -->
+
+    <ol>
+        <li style="text-shadow:4px 4px 4px #ef1a1a;" >Philosophie</li>
+        <li><em>Web development</em></li>
+        <li>Python programmer</li>
+    </ol>
+    <p>Cashier  </p>
+    <ul>
+        <li>JS</li>
+        <li>CSS</li>
+        <li>Git and Github</li>
+
+    </ul>
+
+    <div id="MensajeGrande" class="slide-in">Hola, Viliina! Soy una prueba de Página web de Paul!</div>
+    <div><img src="figura 1.png" alt=""></div>  
+    <form action="/my-handling-form-page" method="post" enctype="multipart/form-data">
+        <ul>
+            <li>
+                <label for="name" class="prueba">Name:</label>
+                <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email"/>
+              </li>
+            <li id="cajaTexto">
+                <label for="msg">Message &copy:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li>
+                <label for="file">Choose a file</label>
+                <input type="file" id="file" name="myFile">
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+        </ul>
+    </form>
 </body>
 </html> 
